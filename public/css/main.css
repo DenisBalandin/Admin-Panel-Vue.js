@@ -1,0 +1,269 @@
+
+body, .main-panel {
+	background: #e2e7f3;
+}
+
+.md-field:before, .md-field.md-theme-default:before, .md-button.md-theme-default.md-primary {
+	background-color: #1f479a;
+}
+
+h3.md-title, .md-toolbar.md-transparent .md-title {
+	color: #333 !important;
+	padding: 0;
+	height: auto;
+}
+
+.md-layout-item.md-size-50 {
+	position: relative;
+}
+
+.results_holder > h3 {
+	margin-top: 0 !important;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.results_holder > h3, .page_title {
+	margin-bottom: 20px;
+}
+
+.md-button.md-theme-default {
+	background-color: #1f479a !important;
+}
+
+.md-card {
+	margin-top: 0;
+}
+
+.md-card img.loader {
+	height: auto;
+	width: 150px;
+	max-height: 100%;
+}
+
+.login-page {
+	z-index: 9999;
+}
+
+.main-panel > .content {
+	padding-top: 0;
+}
+
+.sidebar {
+	background-color: #1f479a !important;
+	border-color: #1f479a !important;
+}
+
+.sidebar:after, .off-canvas-sidebar:after {
+	background-color: #1f479a !important;
+}
+
+.white_icon {
+	filter: brightness(0) invert(1);
+}
+
+.md-card img {
+	max-height: 60px;
+	width: auto;
+}
+
+.icon_txt {
+	display: flex;
+	align-items: center;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    color: #4297d4;
+    cursor: pointer;
+}
+
+.md-card.md-theme-default {
+	margin-top: 10px;
+}
+
+.icon_txt i {
+	margin-right: 10px;
+}
+
+.kiosk_statcard {
+	padding: 10px 30px;
+}
+
+.kiosk_statcard .name {
+	font-size: 25px;
+	font-weight: bold;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-bottom: 0;
+}
+
+.kiosk_statcard .details {
+	margin-top: 5px;
+	font-size: 18px;
+}
+
+.kiosk_statcard .name span {
+	font-size: 16px;
+	color: #0063BE;
+	font-weight: normal;
+	cursor: pointer;
+}
+
+.kiosk_statcard .stats {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+.kiosk_statcard .stats .stat {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	margin: 20px;
+	margin-top: 0;
+	margin-left: 0;
+}
+
+.kiosk_statcard .stats .stat i {
+	filter: brightness(0) invert(1);
+	font-size: 20px;
+}
+
+.kiosk_statcard .stats .stat p, .kiosk_statcard .stats .stat span {
+	color: white;
+	font-size: 30px;
+	margin: 0;
+	margin-top: 10px;
+}
+
+.page_title {
+	width: 100%;
+	font-weight: bold;
+	margin-top: 0;
+	padding-left: 15px;
+}
+
+.back {
+	padding-left: 15px;
+	font-size: 16px;
+	font-weight: normal;
+	color: #0063BE;
+	cursor: pointer;
+	margin: 0;
+}
+
+.sidebar .logo p.logout {
+    margin: 0;
+    float: none;
+    width: 100%;
+    text-align: left;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+}
+
+footer.footer {
+	display: none !important;
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+
+.stats {
+	display: flex;
+	cursor: pointer;
+}
+
+.stats p {
+	margin: 0;
+	color: #0063BE;
+	font-size: 16px;
+}
+
+.md-card .md-card-actions .stats.clickable .md-icon.md-theme-default.md-icon-font {
+	color: #0063BE !important;
+}
+
+.md-button[class*="md-datepicker-"] .md-button-content {
+	color: white !important;
+}
+
+.md-datepicker-body-header .md-icon-button .md-button-content svg, .md-field .md-input-action .md-button-content i svg {
+	fill: white !important;
+}
+
+.md-button[class*="md-datepicker-"]:hover, .md-button[class*="md-datepicker-"]:focus {
+	background-color: #1f479a !important;
+}
+
+
+.md-datepicker-dialog.md-theme-default .md-datepicker-header, .md-datepicker-dialog.md-theme-default .md-datepicker-day-button.md-datepicker-selected{
+	background: #1d79c4 !important;
+}
+
+.md-datepicker-dialog.md-theme-default .md-datepicker-today {
+	background: rgba(29, 121, 196, 0.16) !important;
+	color: #333 !important;
+}
+
+.results_holder {
+	padding: 20px;
+	margin-top: 0;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.results_holder h3 {
+	width: 100%;
+}
+
+.results_holder .table .md-card {
+	margin-top: 0;
+}
+
+.results_holder > h3 {
+	font-weight: bold;
+}
+
+.md-button.md-theme-default.btn_red {
+	background-color: #ee1e1e !important;
+}
+
+.alert {
+	padding: 20px;
+	background-color: #f44336;
+	color: white;
+  }
+  
+  .closebtn {
+	margin-left: 15px;
+	color: white;
+	font-weight: bold;
+	float: right;
+	font-size: 22px;
+	line-height: 20px;
+	cursor: pointer;
+	transition: 0.3s;
+  }
+  
+  .closebtn:hover {
+	color: black;
+  }
+
+
+
+/*.md-toolbar, .login-page .footer .copyright, .login-page .footer a {
+	display: none !important;
+}*/

@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "mayo-221120"
+  },
+  "targets": {
+    "mayo-221120": {
+      "hosting": {
+        "admin": [
+          "admin-mayo"
+        ]
+      }
+    }
+  }
+}
